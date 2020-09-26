@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body, h1, h2, h3, h4,h5,p, ul, li,span,div{
+	  color:#2A8648;
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding:2% 0;
+}
+ body,footer,main,.logo,.main,.bottom,.wraper{
+   display: flex;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+  flex-direction: column;
+ }
+
+body{
+  background-color: #FFFCF3;
+}
+main{
+  margin: 0 auto;
+	position:relative;
+}
+.logo{
+  position: absolute;
+  margin: 15% 0%;
+  height: 100%;
+	z-index: 100;
+	margin-bottom:250px;
+}
+
+.main{
+  width: 100vw;
+	height: : 100vh;
+  position:absolute;
+	overflow-x:hidden;
+}
+.block{
+  margin: 10% 0;
+}
+
+.cat{
+  margin: 0;
+  z-index: 30;
+  width: 200px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.school{
+	padding-top: 0;
+  margin: 0;
+}
+.block,.cat,.school{
+	z-index: 10;
+}
+.tree{
+	background-image: url(images/tree.svg);
+	background-repeat: no-repeat;
+	width: 150vw;
+	min-width: 150vw;
+	height: 200vh;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	position:absolute;
+}
+ button{
+   border:none;
+   background-color: #FFFCF3;
+ }
+
+audio{
+	padding: 0;
+	margin-top: 0;
+}
+
+ .bottom{width: auto;
+         height: 17%;
+			 margin-bottom: 0;}
+
+footer{
+  background-color: none;
+  position:absolute;
+  z-index: 5;
+}
+
+video{
+
+}
+
+@media only screen and (max-width:415px) {
+  h1{font-size:20px;}
+  h2{font-size:40px;}
+  h3{font-size:20px;}
+}

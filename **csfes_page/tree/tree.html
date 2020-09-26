@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+.container
+{display: flex;}
+
+.container{
+  width: 100vw;
+  min-height: 100%;
+  min-height: 100vh;
+}
+.treeleft, .treeright {
+  width: 20vw;
+  min-height: 100%;
+  min-height: 100vh;
+}
+.container{
+  width: 100vw;
+  min-width: 100%;
+  min-width: 100vw;
+  margin: 0 auto;
+}
+
+.treeleft ,.treeright {
+// wrapperのサイズに応じて、leftの位置をjQueryで指定するため、positionはabsoluteにします。
+position: absolute;
+flex-grow: 1;
+}
+.dummy{
+width: 800px;
+flex-grow: 4;
+}
+
+@media only screen and (max-width:415px) {
+  .treeleft, .treeright {
+    width: 40px;
+    max-width: 40px;
+    height: 50%;
+  }
+}
+
+</style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <div class="treeleft">
+    <img src="treeleft.svg" alt="">
+</div>
+<div class="dummy">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus molestias ab ipsam dolor, culpa adipisci, dicta, obcaecati accusamus repudiandae id nisi, rem quaerat ullam. Dolores aperiam quo quia ab.
+</div>
+  <div class="treeright">
+    <img src="treeright.svg" alt="">
+  </div>
+  </div>
+</body>
+</html>
