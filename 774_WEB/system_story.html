@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+	<style>
+	html{
+	height:100vh;
+	overflow:hidden;
+	}
+	body,h1,h2,h3,h4,ul,li,p,main,a,div{
+			margin: 0 auto;
+				color:#FFF;
+				text-decolation: none;
+		}
+		
+		.clearfix:after{
+		display:block;
+		content:"";        
+		clear: both;
+	}
+		body{
+		text-align:center;
+		background-size:100%;
+		background-color:#000;}
+		
+		main{width:980px;
+		background-color:#000;
+		}
+		
+		.back{background-image:url("images/system_back.jpg");
+		width:100%;
+		height: 600px;
+		background-size:cover;
+		}
+	nav	ul{width:100%;
+		padding-inline-start:0px;}
+	
+		li{list-style: none;
+		font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+		}
+		
+	.appear{
+	transform-origin:center top;
+	animation:show 1s both;
+}
+		
+		.box1{background:linear-gradient(transparent,black);
+			position:absolute;
+			width: 100%;
+			margin-top: 30%;
+			max-width: 1920px;
+			height:50%;
+		}
+				
+		.nav{list-style: none;
+			width:243.5px;
+			height:32px;
+			background-color:#000;
+			color:#fff;
+		 text-align: center;
+			border-right: solid 2px #FFF;
+			border-color:#fff;
+		float:left;
+		font-size: 18px;
+		   
+		}
+		nav li:nth-child(2){background-color:#CC0000;}
+		nav li:last-child {border-right:0px;}
+		
+		
+		.cansel{
+			z-index:2000;
+			margin-left:94%;
+			padding-top:10px;
+		}
+		
+		.left{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-right: 92%;
+		}
+		
+		.right{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-left: 950px;
+		}
+		.a img{
+ 　　　　　　 width: 100%;
+  　　　　　　transition-duration: 0.5s;
+}
+        .a:hover img{
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+}
+		.content{
+		margin-bottom:30%;
+		}
+		
+		h1{font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+			text-align:left;
+			font-size:36px;
+			font-style:normal;
+			margin-top:3%;}
+		
+		.icon{
+			float:left;
+			text-align: left;
+		}
+		
+		.human{
+			text-align:right;
+		}
+		
+		.sub{
+		width:970px;
+		background-color:rgba(0,0,0,0.70);
+		float:left;
+		padding-bottom:30px;
+		}
+		
+		
+
+	</style>
+</head>
+	<body>
+	
+		<header>
+			</header>
+		<main>
+			<div class="back">
+		<nav>
+		<ul class="clearfix">
+		<li  class="nav"><a href="index.html">About</a></li>
+		<li  class="nav"><a href="system.html">System</a></li>
+		<li  class="nav"><a href="charactor.html">Charater</a></li>
+		<li  class="nav">SNS</li></ul>
+		</nav>
+		<div class="wrapper">
+		<div class="cansel a"><a href="charactor.html"><img src="images/cansel.png" width="40" height="40" alt=""></a></div>
+		<div class="right a"><a href="system_words.html"><img src="images/arrow_right.png" width="20" height="40" alt=""></a></div>
+		<div class="left a"><a href="system_battle.html"><img src="images/arrow_left.png" width="20" height="40" alt=""></a></div>
+				</div>
+	<div class="content d1">
+		
+	<div class="sub">
+		<h1>Story</h1>
+		<p><img src="images/game2.jpg" width="540" height="304" alt=""></p>
+	<p>特定の楽曲をクリアしたり、特定のコンボ率を達成すると、エピソードがアンロックされる。</p>
+		<p>伏線がかなり散りばめられており、推理する楽しみがある。</p>
+		</div>
+		</div>
+				
+	<footer><!--省略--></footer>
+				</div>
+			</main>
+</body>
+</html>

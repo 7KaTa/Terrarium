@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+	<style>
+	html{
+	height:100vh;
+	overflow:hidden;
+	}
+	body,h1,h2,h3,h4,ul,li,p,main,a,div{
+			margin: 0 auto;
+				color:#FFF;
+				text-decolation: none;
+		}
+		
+		.clearfix:after{
+		display:block;
+		content:"";        
+		clear: both;
+	}
+		body{
+		text-align:center;
+		background-size:100%;
+		background-color:#000;}
+		
+		main{width:980px;
+		background-color:#000;
+		}
+		
+		.back{background-image:url("images/system_back.jpg");
+		width:100%;
+		height: 600px;
+		background-size:cover;
+		}
+	nav	ul{width:100%;
+		padding-inline-start:0px;}
+	
+		li{list-style: none;
+		font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+		}
+		
+	.appear{
+	transform-origin:center top;
+	animation:show 1s both;
+}
+		
+		.box1{background:linear-gradient(transparent,black);
+			position:absolute;
+			width: 100%;
+			margin-top: 30%;
+			max-width: 1920px;
+			height:50%;
+		}
+				
+		.nav{list-style: none;
+			width:243.5px;
+			height:32px;
+			background-color:#000;
+			color:#fff;
+		 text-align: center;
+			border-right: solid 2px #FFF;
+			border-color:#fff;
+		float:left;
+		font-size: 18px;
+		   
+		}
+		nav li:nth-child(2){background-color:#CC0000;}
+		nav li:last-child {border-right:0px;}
+		
+		
+		.cansel{
+			z-index:2000;
+			margin-left:94%;
+			padding-top:10px;
+		}
+		
+		.left{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-right: 92%;
+		}
+		
+		.right{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-left: 950px;
+		}
+		.a img{
+ 　　　　　　 width: 100%;
+  　　　　　　transition-duration: 0.5s;
+}
+        .a:hover img{
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+}
+		.content{
+		padding-bottom:120px;
+		margin: 0 auto;
+			height:600px; 
+			width:980px;
+		background-color:rgba(0,0,0,0.50);
+		float:left;
+		}
+		
+		h1{font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+			text-align:left;
+			font-size:36px;
+			font-style:normal;
+			margin-top:3%;}
+		
+		.icon{
+			float:left;
+			text-align: left;
+		}
+		
+		.human{
+			text-align:right;
+		}
+		
+		.sub{margin-top:50px;
+		margin-left:100px;
+		}
+		
+		.img_wrap{
+			float:left;
+            border: 1px solid #ddd;
+			width:272px;
+			height:159px;
+             margin: 0 auto;
+  overflow: hidden;
+  background: #000;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+		
+		
+	</style>
+</head>
+	<body>
+	
+		<header>
+			</header>
+		<main>
+			<div class="back">
+		<nav>
+		<ul class="clearfix">
+		<li  class="nav"><a href="index.html">About</a></li>
+		<li  class="nav"><a href="system.html">System</a></li>
+		<li  class="nav"><a href="charactor.html">Character</a></li>
+		<li  class="nav">SNS</li></ul>
+		</nav>
+	<div class="content d1">
+			<h1>System</h1>
+		<div class="sub clearfix">
+		<div class="img_wrap"><a href="system_battle.html"><img src="images/game1.jpg" width="270" height="152" alt=""></a></div>
+		<div class="img_wrap"><a href="system_story.html"><img src="images/game2.jpg" width="270" height="152" alt=""></a></div>
+		<div class="img_wrap"><a href="system_words.html"><img src="images/dolls.png" width="150" height="150" alt=""></a></div>
+		</div>
+		</div>
+				
+	<footer><!--省略--></footer>
+				</div>
+			</main>
+</body>
+</html>

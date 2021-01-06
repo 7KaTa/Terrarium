@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+	<style>
+	html{
+	height:100vh;
+	overflow:hidden;
+	}
+			body,h1,h2,h3,h4,ul,li,p,main,a,div{
+			margin: 0 auto;
+				color:#FFF;
+				text-decolation: none;
+
+		}
+
+		.clearfix:after{
+		display:block;
+		content:"";
+		clear: both;
+	}
+		body{
+			text-align:center;
+			background-image:url("images/top.jpg");
+			background-size:100%;
+			back-ground-repeat:no-repeat;
+		}
+
+	#logo { margin: 5% auto;
+		    width:100%;
+		    position:absolute;
+			z-index: 100;
+		}
+	nav	ul{width:100%;}
+
+	.appear {
+	transform-origin:center top;
+	animation:show 1s both;
+}
+
+		.box1{background:linear-gradient(transparent,black);
+			position:absolute;
+			  z-index: 3;
+			width: 100%;
+			margin-top: 30%;
+			max-width: 1920px;
+			height:50%;
+		}
+		.nav{list-style: none;
+			width:24.8%;
+			height:32px;
+			background-color:#000;
+			color:#fff;
+		 text-align: center;
+			border-right: solid 2px #FFF;
+			border-color:#fff;
+		float:left;
+		font-size: 18px;
+		}
+
+		nav	ul{width:100%;
+		padding-inline-start:0px;}
+
+		li{list-style: none;
+		font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+		}
+
+	nav li:first-child{background-color:#CC0000;}
+		nav li:last-child {border-right: none;}
+
+		.sub{
+		display:flex;
+		position:fixed;
+		bottom:50px;
+		z-index:100;
+		width:100vw;
+		}
+
+		#content{
+			color:#FFF;
+			background-color:rgba(0,0,0,0.70);
+			 width:70%;
+			z-index: 80;
+	}
+
+		#DL{
+		}
+
+		#dl{float:right;
+			background-color:#CC0000;
+			list-style-type:none;
+			width:280px;
+        	z-index: 80;
+		}
+span.appear {display:inline-block;}
+.d1 {animation-delay:1s;}
+.d2 {animation-delay:2s;}
+.d3 {animation-delay:3s;}
+.d4 {animation-delay:4s;}
+.d6 {animation-delay:6s;}
+.d8 {animation-delay:8s;}
+.d10 {animation-delay:10s;}
+.d12 {animation-delay:12s;}
+@keyframes show {
+	0% {
+		transform:translate(0,2em);
+		opacity:0;
+		text-shadow:0 0 0 #00f;
+	}
+	50% {
+		text-shadow:0 0 0.5em #09f;
+	}
+	100% {
+		transform:translate(0,0);
+		opacity:1;
+		text-shadow:none;
+	}
+
+}
+
+	</style>
+</head>
+	<body>
+
+		<header>
+			<div id="logo" class="appear d3"><img src="images/774.png" width="400" height="400" alt=""></div>
+			<div  class="appear box1 d1"></div>
+			<div  class="appear box2 d2"></div>
+
+			</header>
+		<nav>
+		<ul class="d4 clearfix">
+		<li  class="nav">About</li>
+			<li  class="nav"><a href="system.html">System</a></li>
+		<li  class="nav"><a href="charactor.html">Charactor</a></li>
+		<li  class="nav">SNS</li></ul>
+		</nav>
+
+	<div class="sub">
+	<div id="content" class="clearfix"><p>20XX年日本某所。見知らぬ天井の下、目覚めた少女。記憶の95%は未だ眠ったままであった。</p>
+		<p>白皙の美女、ミカエラから#774196、通称アヤメという名を授かり、通称”ドールズブラッド”というバトルショーで働くこととなる。</p>
+		<p>「私は何者？」答えを求める為、ただ闘う。ダークでクラシカルな新感覚リズムゲーム。</p>
+	</div>
+	<div id="DL" class="clearfix">
+		<ul id="dl"><li>Download_for_iOS</li>
+			<li>Download_for_Android</li>
+		</ul>
+		</div>
+		</div>
+	<footer><!--省略--></footer>
+</body>
+</html>

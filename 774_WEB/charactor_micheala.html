@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+	<style>
+	html{
+	height:100vh;
+	overflow:hidden;
+	}
+	body,h1,h2,h3,h4,ul,li,p,main,a,div{
+			margin: 0 auto;
+				color:#FFF;
+				text-decolation: none;
+		}
+		
+		.clearfix:after{
+		display:block;
+		content:"";        
+		clear: both;
+	}
+		body{
+		text-align:center;
+		background-size:100%;
+		background-color:#000;}
+		
+		main{width:980px;
+		background-color:#000;
+		}
+		
+		.back{background-image:url("images/charactor_back2.jpg");
+		width:100%;
+		max-width:1920px;
+		height:1076px;
+		}
+	nav	ul{width:100%;
+		padding-inline-start:0px;}
+	
+		li{list-style: none;
+		font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+		}
+		
+	.appear{
+	transform-origin:center top;
+	animation:show 1s both;
+}
+		
+		.box1{background:linear-gradient(transparent,black);
+			position:absolute;
+			width: 100%;
+			margin-top: 30%;
+			max-width: 1920px;
+			height:50%;
+		}
+				
+		.nav{list-style: none;
+			width:243.5px;
+			height:32px;
+			background-color:#000;
+			color:#fff;
+		 text-align: center;
+			border-right: solid 2px #FFF;
+			border-color:#fff;
+		float:left;
+		font-size: 18px;
+		   
+		}
+	nav li:nth-child(3n){background-color:#CC0000;}
+		
+		nav li:last-child {border-right:0px;}
+		
+		
+		.cansel{
+			z-index:2000;
+			margin-left:94%;
+			padding-top:10px;
+		}
+		
+		.left{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-right: 92%;
+		}
+		
+		.right{position:absolute;
+			z-index:2000;
+			padding-top:115px;
+              margin-left: 950px;
+		}
+		.a img{
+ 　　　　　　 width: 100%;
+  　　　　　　transition-duration: 0.5s;
+}
+        .a:hover img{
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+}
+		.content{
+			margin-bottom:30%;
+			background-color:rgba(0,0,0,0.70);
+			z-index:1000;
+		}
+		h1{font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+			font-size:36px;
+			font-style:normal;
+			margin-top:3%;}
+		
+		h2{font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+			font-size:24px;
+			font-style:normal;}
+	
+		.icon{
+			float:left;
+		}
+		
+		.human{
+			text-align:right;
+		}
+		
+		.sub{
+		width:360px;
+		background-color:none;
+		float:left;
+		}
+
+span.appear {display:inline-block;}
+.d1 {animation-delay:1s;}
+.d2 {animation-delay:2s;}
+.d3 {animation-delay:3s;}
+.d4 {animation-delay:4s;}
+.d6 {animation-delay:6s;}
+.d8 {animation-delay:8s;}
+.d10 {animation-delay:10s;}
+.d12 {animation-delay:12s;}
+		
+@keyframes show {
+	0% {
+		transform:translate(0,2em);
+		opacity:0;
+		text-shadow:0 0 0 #00f;
+	}
+	50% {
+		text-shadow:0 0 0.5em #09f;
+	}
+	100% {
+		transform:translate(0,0);
+		opacity:1;
+		text-shadow:none;
+	}
+	
+}
+
+	</style>
+</head>
+	<body>
+	
+		<header>
+			</header>
+		<main>
+			<div class="back">
+		<nav>
+		<ul class="clearfix">
+		<li  class="nav"><a href="index.html">About</a></li>
+		<li  class="nav"><a href="system.html">System</a></li>
+		<li  class="nav"><a href="charactor.html">Charactor</a></li>
+		<li  class="nav">SNS</li></ul>
+		</nav>
+		<div class="wrapper">
+		<div class="cansel a"><a href="charactor.html"><img src="images/cansel.png" width="40" height="40" alt=""></a></div>
+		<div class="right a"><a href="charactor_ayame.html"><img src="images/arrow_right.png" width="20" height="40" alt=""></a></div>
+		<div class="left a"><a href="charactor_ruri.html"><img src="images/arrow_left.png" width="20" height="40" alt=""></a></div>
+	<div class="content d1">
+		
+	<div class="sub clearfix">
+		<h1>Micheala</h1>
+		<div id="icon" class="clearfix"><img src="images/96a8_small.png" alt="" width="70" height="70"></div>
+		<h2>N/A</h2>
+		<p>ドールズブラッド強豪ユニット96A8(くろあや)の支配人。</p>
+		<br>
+<p>&#9632;&#9632;&#9632;からあやめを救い出し、身の安全と衣食住は保証する代わりに労働を課した。</p>
+<p>実名、年齢、国籍不詳の財力ある謎の美女。</p>
+<p>（尚、この文章は&#9632;&#9632;&#9632;より検閲がかかっている。）</p>
+		</div>
+	<div class="human clearfix"><img src="images/micheala_big.png" width="620" alt=""></div>
+		</div>
+				
+	<footer><!--省略--></footer>
+				</div></div>
+			</main>
+</body>
+</html>
