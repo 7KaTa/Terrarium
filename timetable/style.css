@@ -1,8 +1,11 @@
 body{background-color:#6cf;
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
     color:#fff;
 }
+
 td,th{width:80px;
-     height:60px;
+     height:32px;
      border: 1px;
      border-style: solid;
      border-color:#fff;
@@ -24,6 +27,11 @@ tbody{font-size:12px;
   border: none;
   text-align: center;
 }
+
+#RealtimeClockArea2{
+  font-size: 1.25em;
+}
+
 a{
   color:#fff;
   font-size: 1.25em;
@@ -42,6 +50,7 @@ position: absolute;
 display: flex;
 flex-direction: column;
 }
+
 @media only screen and (min-width:415px){
   table{
     margin: 20px 30% auto 30%;
@@ -64,6 +73,9 @@ th{
   font-size: 2em;
 }
 body{
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
+    color:#fff;
   text-align: center;
   margin-top:50px;
 }
